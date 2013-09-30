@@ -12,7 +12,7 @@
 		56591B9317F99C7C0001762F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56591B9217F99C7C0001762F /* UIKit.framework */; };
 		56591B9917F99C7C0001762F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56591B9717F99C7C0001762F /* InfoPlist.strings */; };
 		56591B9B17F99C7C0001762F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56591B9A17F99C7C0001762F /* main.m */; };
-		56591B9F17F99C7C0001762F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56591B9E17F99C7C0001762F /* AppDelegate.m */; };
+		56591B9F17F99C7C0001762F /* RegionsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56591B9E17F99C7C0001762F /* RegionsAppDelegate.m */; };
 		56591BA117F99C7C0001762F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56591BA017F99C7C0001762F /* Images.xcassets */; };
 		56591BA817F99C7C0001762F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56591BA717F99C7C0001762F /* XCTest.framework */; };
 		56591BA917F99C7C0001762F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56591B8E17F99C7C0001762F /* Foundation.framework */; };
@@ -44,8 +44,8 @@
 		56591B9817F99C7C0001762F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56591B9A17F99C7C0001762F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56591B9C17F99C7C0001762F /* Regions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Regions-Prefix.pch"; sourceTree = "<group>"; };
-		56591B9D17F99C7C0001762F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		56591B9E17F99C7C0001762F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56591B9D17F99C7C0001762F /* RegionsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegionsAppDelegate.h; sourceTree = "<group>"; };
+		56591B9E17F99C7C0001762F /* RegionsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegionsAppDelegate.m; sourceTree = "<group>"; };
 		56591BA017F99C7C0001762F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		56591BA617F99C7C0001762F /* RegionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56591BA717F99C7C0001762F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -124,8 +124,8 @@
 				56591BC317F99DD80001762F /* RegionAnnotation.m */,
 				56591BC417F99DD80001762F /* RegionAnnotationView.h */,
 				56591BC517F99DD80001762F /* RegionAnnotationView.m */,
-				56591B9D17F99C7C0001762F /* AppDelegate.h */,
-				56591B9E17F99C7C0001762F /* AppDelegate.m */,
+				56591B9D17F99C7C0001762F /* RegionsAppDelegate.h */,
+				56591B9E17F99C7C0001762F /* RegionsAppDelegate.m */,
 				56591BA017F99C7C0001762F /* Images.xcassets */,
 				56591B9517F99C7C0001762F /* Supporting Files */,
 				56591BBD17F99C9C0001762F /* RegionsViewController.h */,
@@ -267,7 +267,7 @@
 			files = (
 				56591BC617F99DD80001762F /* RegionAnnotation.m in Sources */,
 				56591BBF17F99C9C0001762F /* RegionsViewController.m in Sources */,
-				56591B9F17F99C7C0001762F /* AppDelegate.m in Sources */,
+				56591B9F17F99C7C0001762F /* RegionsAppDelegate.m in Sources */,
 				56591B9B17F99C7C0001762F /* main.m in Sources */,
 				56591BC717F99DD80001762F /* RegionAnnotationView.m in Sources */,
 			);
@@ -470,6 +470,7 @@
 				56591BB917F99C7C0001762F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56591BBA17F99C7C0001762F /* Build configuration list for PBXNativeTarget "RegionsTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +479,7 @@
 				56591BBC17F99C7C0001762F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

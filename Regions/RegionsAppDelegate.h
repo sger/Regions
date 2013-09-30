@@ -10,7 +10,7 @@
 
 @class RegionsViewController;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface RegionsAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) RegionsViewController *viewController;
